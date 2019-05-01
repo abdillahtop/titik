@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome To My Portofolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="css/bootstrap.css" ;>
+    <!-- Akhir Boostrap-->
+
+    <!-- Javascript-->
+    <script src="js/animasi-navbar.js"></script>
+    <script type="text/javascript">
+    $(window).on('scroll',function(){
+      if($(window).scrollTop()){
+        $('#navbar').addClass('light');
+      }
+      else
+      {
+        $('#navbar').removeClass('light');
+      }
+    })
+    </script>
+    <!-- Akhir Javascript-->
+
+    <!-- My Font -->
+    <style> @import url('font/Viga/Viga-Regular.ttf'); </style>
+    <style> @import url('font/Roboto-Regular.ttf'); </style>
+    <!-- Akhir My Font -->
+
+    <!-- Main CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Akhir Main CSS-->
+</head> 
+<body>
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+          <a class="navbar-brand" href="#">AbdillahDM</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+              <a class="nav-link" href="#beranda">Beranda<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="#portofolio">Portofolio</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="#about-me">About Me</a>
+              </li>
+              <li class="nav-item">
+              
+              </li>
+          </ul>
+          </div>
+      </div>
+    </nav>
+    <!-- AkhirNavbar -->
+  <section>
+    <!-- Jumbotron -->
+    <div id="beranda" class="jumbotron jumbotron-fluid">
+      <img class="hero" src="img/hero1.png">
+      <div class="container">
+        <h2 class="display-4 mt-2 mb-4">“ Bisa karena terbiasa, terus belajar mulai dari 0 hingga sekarang ”</h2>
+        <a href="#" class="btn btn-primary hire-me">Hire Me</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="portofolio ">
+      <!-- Portofolio -->
+      <div id="portofolio" class="container portofolio justify-content-center">
+        <div class="row">
+          <div class="col-lg text-center">
+            <h1 id="start-about-me">My Portofolio</h1>
+            <span>Hope you like my portofolio, make with love from hobby’s</span>
+          </div>
+        </div>
+
+        <div class="row icon-porto text-center">
+          <div class="col-lg ">
+            <div class="row ml-3 mr-3 justify-content-around ">
+              <div class="col-lg-3 border-icon">
+                <img class="icon" src="img/icon1.png" alt="website">
+                <h3>Website</h3>
+                <h6>Lorem Ipsum is simply text of the printing and typesetting industry. <br></h6>
+                <a class="link-icon mt-3" href="#">Lihat selengkapnya</a>
+              </div>
+
+              <div class="col-lg-3 border-icon">
+                  <img class="icon" src="img/icon2.png" alt="Design">
+                  <h3>Design</h3>
+                  <h6>Lorem Ipsum is simply text of the printing and typesetting industry.<br> </h6>
+                  <a class="link-icon mt-3" href="#">Lihat selengkapnya</a>
+              </div>
+
+              <div class="col-lg-3 border-icon">
+                  <img class="icon" src="img/icon3.png" alt="Android">
+                  <h3>Android</h3>
+                  <h6 class="mb-3">Lorem Ipsum is simply text of the printing and typesetting industry.</h6>
+                  <a class="link-icon mt-3" href="#">Lihat selengkapnya</a>
+              </div>
+          </div>
+        </div>
+      <!-- Akhir Portofolio -->
+    <!-- Akhir Jumbotron-->  
+  </section>
+
+  <section id="about-me" class="mt-n5 pb-5">
+    <div class="container justify-content-center">
+        <div class="row">
+          <div class="col text-center">
+            <h1 id="start-about-me">About Me</h1>
+            <span>Nothing special about me, but i confident i can make something big in future</span>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-5">
+          <div class="col-lg-5 offset-1">
+            <img class="img-about-me1 text-center"src="img/datadiri.png">
+          </div>
+
+          <div class="col-lg-5 mt-5 ml-3">
+            <h3>Data Diri</h3>
+            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure corporis quasi obcaecati quaerat ipsa excepturi labore fugiat molestias eum facere?</h5>
+            <a class="link-icon mt-3" href="#">Lihat selengkapnya</a>
+          </div>
+        </div>
+
+        <div class="row mt-5 justify-content-center">
+          <div class="col-lg-5 mt-5 ml-3">
+            <h3>Pendidikan</h3>
+            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quae consectetur sed cum itaque mollitia debitis illo quisquam non perspiciatis?</h5>
+            <a class="link-icon mt-3" href="#">Lihat selengkapnya</a>
+          </div>
+
+          <div class="col-lg-5 pt-3 offset-1">
+            <img class="img-about-me2" src="img/pendidikan.png">
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section id="skill" class="pt-3 pb-5">
+    <div class="container ">
+      <div class="row justify-content-center mt-5">
+          <h1 id="text-skill" class="mb-5">My Skill</h1>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-5 ml-3 mr-3">
+          <h2>PEMROGRAMAN</h2>
+          <div class="skill-pemrograman">
+              <p>HTML :</p>
+              <p>50%</p>
+              <div class="skill">
+                <div class="percentase-skill"style="width: 50%" ></div>
+              </div>
+          </div>
+          
+          <div class="skill-pemrograman">
+            <p>CSS :</p>
+            <p>50%</p>
+            <div class="skill">
+              <div class="percentase-skill"style="width: 50%" ></div>
+            </div>
+          </div>
+          
+          <div class="skill-pemrograman">
+            <p>PHP :</p>
+            <p>50%</p>
+            <div class="skill">
+              <div class="percentase-skill"style="width: 50%" ></div>
+            </div>
+          </div>
+          
+          <div class="skill-pemrograman ">
+            <p>javascript :</p>
+            <p>25%</p>
+            <div class="skill">
+              <div class="percentase-skill"style="width: 25%" ></div>
+            </div>
+          </div>
+              
+          <div class="skill-pemrograman">
+            <p>MySQL :</p>
+            <p>25%</p>
+            <div class="skill">
+              <div class="percentase-skill" style="width: 25%" ></div>
+            </div>
+          </div>
+              
+          <div class="skill-pemrograman">
+            <p>Java :</p>
+            <p>30%</p>
+            <div class="skill">
+              <div class="percentase-skill"style="width: 30%" ></div>
+            </div>
+          </div>
+        </div>
+
+      <div class="col-lg-6 ml-3 mr-3">
+        <img class="img-about-me2" src="img/pemrograman.png">
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer text-center">
+      <p>©2019. Portfolio Abdillah </p>
+  </section>
+</body>
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up">TOP</i></a>
+</html>
